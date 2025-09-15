@@ -20,3 +20,4 @@
 - O if só é executado se a condição for verdadeira
 - else não precisa de condição
 - Condição ternária ` condição ? verdadeiro : falso `
+- Sempre utilizar o `break` apos cada caso quando se utiliza o `switch`
