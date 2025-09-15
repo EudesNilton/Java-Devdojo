@@ -21,3 +21,9 @@
 - else não precisa de condição
 - Condição ternária ` condição ? verdadeiro : falso `
 - Sempre utilizar o `break` apos cada caso quando se utiliza o `switch`
+
+### Estruturas de repetição
+- Colocar um contador, caso contrário sempre ter a um loop infinito
+- Definir variáveis usadas antes de iniciar o laço de repetição
+- O `break` também é utilizado nas estruturas de repetições
+- O `break` não pode estar dentro somente do if, precisa estar dentro de um laço de repetição
