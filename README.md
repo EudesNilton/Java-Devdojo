@@ -27,3 +27,9 @@
 - Definir variáveis usadas antes de iniciar o laço de repetição
 - O `break` também é utilizado nas estruturas de repetições
 - O `break` não pode estar dentro somente do if, precisa estar dentro de um laço de repetição
+
+### Arrays
+- São referencias 
+- Você pode inicializar com nulo
+- O tamanho do array não pode mudar de tamanho dinamicamente
+- O for each não entrega os indices do array
