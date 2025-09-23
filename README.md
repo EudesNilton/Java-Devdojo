@@ -33,3 +33,8 @@
 - Você pode inicializar com nulo
 - O tamanho do array não pode mudar de tamanho dinamicamente
 - O for each não entrega os indices do array
+
+### Arrays Multidimensionais
+- É um array dentro de um array
+- Melhor sintaxe `int[][] dias = new int[3][3]`
+- Desenhe e observe no papel antes de ir para o código
