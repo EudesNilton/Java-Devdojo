@@ -1,3 +1,4 @@
+package javacore.introducao;
 /* Pática
  * Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
  * 

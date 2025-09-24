@@ -1,3 +1,4 @@
+package javacore.introducao;
 public class aula06EstruturasDeRepeticao {
     public static void main(String[] args) {
         // Estruturas de Repetição
