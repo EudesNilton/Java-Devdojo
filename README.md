@@ -38,3 +38,9 @@
 - É um array dentro de um array
 - Melhor sintaxe `int[][] dias = new int[3][3]`
 - Desenhe e observe no papel antes de ir para o código
+
+### OO
+- Coesão
+    - As classes precisam ter um proposito unico
+    
+- 
