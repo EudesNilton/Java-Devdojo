@@ -52,3 +52,5 @@
     *Retorno*
     - Usa a palvra reservada `return`
     - Funciona como um "`break`" 
+    - Não é possivel imprimir um void como parametro do `System.out.println()`
+    - Você pode usar só `return;` quando o método é `void`
