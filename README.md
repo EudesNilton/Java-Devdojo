@@ -54,3 +54,6 @@
     - Funciona como um "`break`" 
     - Não é possivel imprimir um void como parametro do `System.out.println()`
     - Você pode usar só `return;` quando o método é `void`
+
+    *Parâmetros tipo primitivo*
+    - Quando você passa valores primitivos você passa uma cópia desses valores, não o caminho
