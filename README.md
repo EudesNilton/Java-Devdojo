@@ -47,4 +47,8 @@
     - O metodo retorna ou não algo
     - Diferença entre saída e retorno
     - `void` não retorna nada
-    - caso o método tenha muitos parâmetros você pode divir em um outro método
+    - Caso o método tenha muitos parâmetros você pode divir em um outro método
+    
+    *Retorno*
+    - Usa a palvra reservada `return`
+    - Funciona como um "`break`" 
