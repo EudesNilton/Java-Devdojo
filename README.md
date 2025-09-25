@@ -43,4 +43,8 @@
 - Coesão
     - As classes precisam ter um proposito unico
     
-- 
+- Métodos
+    - O metodo retorna ou não algo
+    - Diferença entre saída e retorno
+    - `void` não retorna nada
+    - caso o método tenha muitos parâmetros você pode divir em um outro método
