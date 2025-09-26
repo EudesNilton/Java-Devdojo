@@ -57,3 +57,6 @@
 
     *Parâmetros tipo primitivo*
     - Quando você passa valores primitivos você passa uma cópia desses valores, não o caminho
+
+    *Parâmetros tipo referência*
+    - Ter cuidado ao passar por referência pois pode alterar o valor da variável
