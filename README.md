@@ -60,3 +60,6 @@
 
     *Parâmetros tipo referência*
     - Ter cuidado ao passar por referência pois pode alterar o valor da variável
+
+    *referência this*
+    - Usado para se referir a algo que está dentro do objeto
