@@ -63,3 +63,8 @@
 
     *referência this*
     - Usado para se referir a algo que está dentro do objeto
+
+    *VarArgs*
+    - Uma outra forma de receber arrays
+    - Precisa ser o ultimo parâmetro
+     
