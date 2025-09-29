@@ -67,3 +67,9 @@
     *VarArgs*
     - Uma outra forma de receber arrays
     - Precisa ser o ultimo parâmetro
+     
+- Modificador de acessos
+    - Garantir acoplamentos diferentes
+
+    *Private*
+    - Só poderão ser acessados pelo objeto
