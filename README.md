@@ -67,5 +67,3 @@
     *VarArgs*
     - Uma outra forma de receber arrays
     - Precisa ser o ultimo parâmetro
-     
-- Modificador de acessos
