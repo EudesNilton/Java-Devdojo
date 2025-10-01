@@ -11,7 +11,7 @@ public class Funcionario {
         System.out.println(this.idade);
         if(salarios == null){
             return;
-        }
+         }
         
         for(double salario : salarios){
             System.out.print(salario + " ");

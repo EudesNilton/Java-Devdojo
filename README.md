@@ -73,3 +73,6 @@
 
     *Private*
     - Só poderão ser acessados pelo objeto
+
+- Sobrecarga
+    - É você ter mais de um método com o mesmo nome porém com parâmetros diferentes
