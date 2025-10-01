@@ -76,3 +76,10 @@
 
 - Sobrecarga
     - É você ter mais de um método com o mesmo nome porém com parâmetros diferentes
+
+- Construtores
+    - Caso você não crie um construtor o próprio Java Class ja cria pra você
+    - Não tem retorno `public Anime(){}`
+    - É possivel criar sobrecarga dos contrutores
+    - A partir do momento que passa a ter `void` passa a ser um método
+    - Para chamar um construtor o `this();` precisa ser a primeira linha a ser executada
