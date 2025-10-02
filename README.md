@@ -86,4 +86,8 @@
 
 - Bloco de inicialização 
     - `{ }` colocar as chaves antes dos construtores
-    - 
+
+- Modificador static
+    - Para criar um modificador estatico você só precisa adicionar `static` logo depois do modificador de acesso`private static double velocidadeLimite = 250;`
+    - Passa a pertencer a classe não mais ao objeto
+    - E todos os objetos terão o mesmo valor
