@@ -83,3 +83,7 @@
     - É possivel criar sobrecarga dos contrutores
     - A partir do momento que passa a ter `void` passa a ser um método
     - Para chamar um construtor o `this();` precisa ser a primeira linha a ser executada
+
+- Bloco de inicialização 
+    - `{ }` colocar as chaves antes dos construtores
+    - 
