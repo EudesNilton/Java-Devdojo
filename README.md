@@ -88,6 +88,10 @@
     - `{ }` colocar as chaves antes dos construtores
 
 - Modificador static
-    - Para criar um modificador estatico você só precisa adicionar `static` logo depois do modificador de acesso`private static double velocidadeLimite = 250;`
+    - Para criar um modificador estático você só precisa adicionar `static` logo depois do modificador de acesso`private static double velocidadeLimite = 250;`
     - Passa a pertencer a classe não mais ao objeto
     - E todos os objetos terão o mesmo valor
+
+- Métodos estáticos
+    - Criar um método estático quando as variaveis não acessam atributos das instâncias
+    - Só acessa métodos estáticos, porém pode ser acessado por outros métodos
