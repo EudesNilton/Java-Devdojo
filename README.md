@@ -95,3 +95,7 @@
 - Métodos estáticos
     - Criar um método estático quando as variaveis não acessam atributos das instâncias
     - Só acessa métodos estáticos, porém pode ser acessado por outros métodos
+
+- Bloco de inicialização estático
+    - Sempre executa antes de ter espaço em mémoria
+    - Ele sempre é executado somente uma vez
