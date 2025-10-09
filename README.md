@@ -99,3 +99,8 @@
 - Bloco de inicialização estático
     - Sempre executa antes de ter espaço em mémoria
     - Ele sempre é executado somente uma vez
+
+- Associação
+    - Criar relacionamentos 
+    - 1 para 1, 1 para muitos, muitos para 1 e muitos para muitos
+    - 
