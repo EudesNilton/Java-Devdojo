@@ -103,3 +103,10 @@
 - Associação
     - Criar relacionamentos 
     - 1 para 1, 1 para muitos, muitos para 1 e muitos para muitos
+    - Tem um 
+
+- Herança
+    - É um
+    - Não tem um relacionamento
+    - É algo que é ex. um funcionario é uma pessoa e não tem uma pessoa
+    - Acoplando fortemente o seu código
