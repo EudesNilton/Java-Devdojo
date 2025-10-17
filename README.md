@@ -107,6 +107,7 @@
 
 - Herança
     - É um
+    - Não existe herança multipla
     - Não tem um relacionamento
     - É algo que é ex. um funcionario é uma pessoa e não tem uma pessoa
     - Acoplando fortemente o seu código
@@ -114,3 +115,7 @@
     *super*
     - Esta sempre se referindo do objeto
     - Você não executa o do outro e sim chama a função junto com as implementações do objeto atual
+
+    *Protected*
+    - Vai dar acesso direto a variavel a todas as subclases independente de onde tiverem
+    - Não consegue ser acessado fora do pacote 

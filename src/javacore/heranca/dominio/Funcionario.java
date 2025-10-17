@@ -3,6 +3,15 @@ package javacore.heranca.dominio;
 public class Funcionario extends Pessoa {
     private double salario;
 
+    public void imprime(){
+        super.imprime();
+        System.out.println(this.salario);
+    }
+
+    public void relatorioPagamento(){
+        System.out.println("Eu "+ this.nome + "Recebi o salario de "+ this.salario);
+    }
+
     public double getSalario() {
         return salario;
     }
@@ -11,8 +20,4 @@ public class Funcionario extends Pessoa {
         this.salario = salario;
     }
 
-    public void imprime(){
-        super.imprime();
-        System.out.println(this.salario);
-    }
 }
