@@ -119,3 +119,9 @@
     *Protected*
     - Vai dar acesso direto a variavel a todas as subclases independente de onde tiverem
     - Não consegue ser acessado fora do pacote 
+
+    *Herança*
+    - É preciso seguir as da super classe
+    - Caso a super classe tenha construtor e a classe filha não possuir construtor você precisa criar o construtor para a classe filha
+    - A classe não pode possuir dois pai, porem toda classe extend de Object, porém o java faz isso de forma implicita 
+    - Não é possivel ter o super() e o this() no mesmo construtor
