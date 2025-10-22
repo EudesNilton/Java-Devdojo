@@ -126,3 +126,7 @@
     - A classe não pode possuir dois pai, porem toda classe extend de Object, porém o java faz isso de forma implicita 
     - Não é possivel ter o super() e o this() no mesmo construtor
     - Na execução sempre inicia o pai primeiro
+
+    *Sobrescrita*
+    - O nome precisa ser exatamente a mesma e a quantidade de parametro precisa ser a mesma
+    - O Modificador de acesso sempre deve ser igual ao da classe sobrescrita
