@@ -3,7 +3,6 @@ package javacore.sobrescrita.dominio;
 public class Anime {
     private String nome;
 
-        
     @Override
     public String toString() {
         return "Anime: " + this.nome;

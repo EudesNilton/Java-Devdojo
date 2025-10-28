@@ -130,3 +130,7 @@
     *Sobrescrita*
     - O nome precisa ser exatamente a mesma e a quantidade de parametro precisa ser a mesma
     - O Modificador de acesso sempre deve ser igual ao da classe sobrescrita
+
+    *Modificador final*
+    - `private static final double VELOCIDADE_LIMITE = 250;`
+    - Esse valor nunca podera ser alterado
