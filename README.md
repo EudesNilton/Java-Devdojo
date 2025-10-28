@@ -131,6 +131,10 @@
     - O nome precisa ser exatamente a mesma e a quantidade de parametro precisa ser a mesma
     - O Modificador de acesso sempre deve ser igual ao da classe sobrescrita
 
-    *Modificador final*
+    *Modificador final tipo static*
+    - Quando você quer que o moodificador seja uma constante você adiciona `final` depois de static
     - `private static final double VELOCIDADE_LIMITE = 250;`
     - Esse valor nunca podera ser alterado
+
+    *Modificador final tipo referência*
+    - Não pode alterar a referência do objeto
