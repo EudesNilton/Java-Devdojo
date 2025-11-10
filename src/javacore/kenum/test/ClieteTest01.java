@@ -2,7 +2,7 @@ package javacore.kenum.test;
 
 import javacore.kenum.dominio.Cliente;
 import javacore.kenum.dominio.TipoCliente;
-import javacore.kenum.dominio.Cliente.TipoPagamento;
+import javacore.kenum.dominio.TipoPagamento;
 
 public class ClieteTest01 {
     public static void main(String[] args) {
@@ -11,5 +11,6 @@ public class ClieteTest01 {
 
         System.out.println(cliente1);
         System.out.println(cliente2);
+        System.out.println(TipoPagamento.DEBITO.calcularDesconto(100));
     }
 }

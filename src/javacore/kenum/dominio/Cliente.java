@@ -1,11 +1,6 @@
 package javacore.kenum.dominio;
 
 public class Cliente {
-    public enum TipoPagamento{
-        CREDITO,
-        DEBITO
-    }
-
     private String nome;
     private TipoCliente tipoCliente;
     private TipoPagamento tipoPagamento;
@@ -20,9 +15,4 @@ public class Cliente {
     public String toString() {
         return "Cliente [nome=" + nome + ", tipoCliente=" + tipoCliente + ", tipoPagamento=" + tipoCliente.VALOR + ", tipoPagamento=" + tipoPagamento + "]";
     }
-
-    
-
-    
-
 }
