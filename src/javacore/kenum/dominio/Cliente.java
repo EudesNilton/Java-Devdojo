@@ -13,6 +13,6 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente [nome=" + nome + ", tipoCliente=" + tipoCliente + ", tipoPagamento=" + tipoCliente.VALOR + ", tipoPagamento=" + tipoPagamento + "]";
+        return "Cliente [nome=" + nome + ", tipoCliente=" + tipoCliente + ", tipoPagamento=" + tipoCliente.getValor() + ", tipoPagamento=" + tipoPagamento + "]";
     }
 }

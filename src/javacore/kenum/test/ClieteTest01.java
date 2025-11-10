@@ -12,5 +12,7 @@ public class ClieteTest01 {
         System.out.println(cliente1);
         System.out.println(cliente2);
         System.out.println(TipoPagamento.DEBITO.calcularDesconto(100));
+        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Fisica");
+        System.out.println(tipoCliente2);
     }
 }
