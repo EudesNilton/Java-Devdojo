@@ -8,8 +8,15 @@ public class DataLoaderTest01 {
         DatabaseLoader databaseLoader = new DatabaseLoader();
         FileLoader fileLoader = new FileLoader();
 
+        databaseLoader.remove();
         databaseLoader.load();
+        databaseLoader.checkPermission();
+
+        System.out.println("*============*");
+
         fileLoader.load();
+        fileLoader.remove();
+        fileLoader.checkPermission();
     }
 
     
