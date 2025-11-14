@@ -1,6 +1,7 @@
 package javacore.Minterfaces.dominio;
 
 public class DatabaseLoader implements DataLoader, DataRemover {
+    // private -> default -> protected -> public
 
     @Override
     public void load() {
