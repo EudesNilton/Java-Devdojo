@@ -1,6 +1,7 @@
 package javacore.Npolimorfismo.test;
 
 import javacore.Npolimorfismo.dominio.Computador;
+import javacore.Npolimorfismo.dominio.Televisao;
 import javacore.Npolimorfismo.dominio.Tomate;
 import javacore.Npolimorfismo.servico.CalculadoraImposto;
 
@@ -8,7 +9,9 @@ public class ProdutoTest01 {
     public static void main(String[] args) {
         Computador computador = new Computador("Mac", 25000);
         Tomate tomate = new Tomate("Cereja", 5);
-        CalculadoraImposto.calcularImpostoComputador(computador);
-        CalculadoraImposto.calcularImpostoTomate(tomate);
+        Televisao tv = new Televisao("Samsung 50\"", 4000);
+        CalculadoraImposto.calcularImposto(computador);
+        CalculadoraImposto.calcularImposto(tomate);
+        CalculadoraImposto.calcularImposto(tv);
     }
 }
