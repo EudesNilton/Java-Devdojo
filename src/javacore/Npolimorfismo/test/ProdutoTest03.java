@@ -3,6 +3,7 @@ package javacore.Npolimorfismo.test;
 import javacore.Npolimorfismo.dominio.Computador;
 import javacore.Npolimorfismo.dominio.Produto;
 import javacore.Npolimorfismo.dominio.Tomate;
+import javacore.Npolimorfismo.servico.CalculadoraImposto;
 
 public class ProdutoTest03 {
     public static void main(String[] args) {
@@ -12,6 +13,10 @@ public class ProdutoTest03 {
         Tomate tomate = new Tomate("Italia", 12);
         tomate.setDataValidade("11/12/2027");
         System.out.println("*===============*");
+
+        CalculadoraImposto.calcularImposto(tomate);
+        System.out.println("---------");
+        CalculadoraImposto.calcularImposto(produto);
 
     }
 }
