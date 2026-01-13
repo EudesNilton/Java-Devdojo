@@ -138,3 +138,8 @@
 
     *Modificador final tipo referência*
     - Não pode alterar a referência do objeto
+
+### Exception
+- Existem dois tipo `Checked` e `Unchecked`
+- `Checked` são checadas são filhas da classe Exception diretamente (geram erro de execução o código não compila)
+- `Unchecked` não são checadas são RuntimeException (Quase sempre o problema está entre o teclado e a cadeira)
